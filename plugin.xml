@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+	id="gov.nasa.jpl.tmt.plugins.magicdraw.sysml.monteCarlo.plugin"
+	name="Monte Carlo Plugin for Cameo Simulation Toolkit"
+	version="1.0"
+	ownClassloader="true"
+	provider-name="JPL"
+	class="gov.nasa.jpl.tmt.plugins.magicdraw.sysml.monteCarlo.plugin.MonteCarloPluginMain">
+	
+	<requires>
+		<api version="1.0"/>
+		<required-plugin id="SimulationToolkit" />
+	</requires>
+	
+	<runtime>
+		<library name="monteCarlo.jar" />
+	</runtime>
+</plugin>

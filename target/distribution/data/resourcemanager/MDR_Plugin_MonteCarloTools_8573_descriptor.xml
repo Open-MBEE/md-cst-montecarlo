@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resourceDescriptor critical="false" date="2017-01-31-08:00" description="Monte Carlo Plugin for Cameo Simulation Toolkit" group="JPL Resource" homePage="" id="8573" mdVersionMax="higher" mdVersionMin="18.0" name="Monte Carlo Tools" product="MonteCarloTools" restartMagicdraw="false" type="Plugin">
+    <version human="1.0" internal="1" resource="10"/>
+    <provider email="" homePage="" name="JPL"/>
+    <edition>Reader</edition>
+    <edition>Standard</edition>
+    <edition>Professional Java</edition>
+    <edition>Professional C++</edition>
+    <edition>Professional C#</edition>
+    <edition>Professional ArcStyler</edition>
+    <edition>Professional EFFS ArcStyler</edition>
+    <edition>OptimalJ</edition>
+    <edition>Architect</edition>
+    <edition>Enterprise</edition>
+    <installation>
+        <file from="plugins/gov.nasa.jpl.tmt.plugins.magicdraw.sysml.monteCarlo/monteCarlo.jar" to="plugins/gov.nasa.jpl.tmt.plugins.magicdraw.sysml.monteCarlo/monteCarlo.jar"/>
+        <file from="plugins/gov.nasa.jpl.tmt.plugins.magicdraw.sysml.monteCarlo/plugin.xml" to="plugins/gov.nasa.jpl.tmt.plugins.magicdraw.sysml.monteCarlo/plugin.xml"/>
+    </installation>
+</resourceDescriptor>
+
